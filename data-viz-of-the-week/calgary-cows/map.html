@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_75afb147720e31a5919ab9903a3b83c8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_75afb147720e31a5919ab9903a3b83c8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_75afb147720e31a5919ab9903a3b83c8 = L.map(
+                "map_75afb147720e31a5919ab9903a3b83c8",
+                {
+                    center: [51.0447, -114.0719],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_486e18b9627de490ee2c6ca94f89c6a9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+            var marker_54ee07b1f1ba1bd374f273dbd4c121ad = L.marker(
+                [51.04983638752946, -114.0692485933342],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_d8f92ad7a2df7c1f270a2cfd3411a6f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a9c2ea0a49d6419a5ff99a118e2941c = $(`<div id="html_9a9c2ea0a49d6419a5ff99a118e2941c" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010502050657/http://www.udderlyart.com/58.html" target="_blank">Cow Belle</a></div>`)[0];
+                popup_d8f92ad7a2df7c1f270a2cfd3411a6f2.setContent(html_9a9c2ea0a49d6419a5ff99a118e2941c);
+            
+        
+
+        marker_54ee07b1f1ba1bd374f273dbd4c121ad.bindPopup(popup_d8f92ad7a2df7c1f270a2cfd3411a6f2)
+        ;
+
+        
+    
+    
+            marker_54ee07b1f1ba1bd374f273dbd4c121ad.bindTooltip(
+                `<div>
+                     Cow Belle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69dc0f0c15dbde7ca81dcb3a2d505e5e = L.marker(
+                [51.0456546955081, -114.06837338778698],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_aa21faec01b2230c30c4e737ed0f9aaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_447273445ef4d143827a53535521c86a = $(`<div id="html_447273445ef4d143827a53535521c86a" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010727155930/http://www.udderlyart.com/32.html" target="_blank">Yipee Yi Yay Cow Pattern</a></div>`)[0];
+                popup_aa21faec01b2230c30c4e737ed0f9aaf.setContent(html_447273445ef4d143827a53535521c86a);
+            
+        
+
+        marker_69dc0f0c15dbde7ca81dcb3a2d505e5e.bindPopup(popup_aa21faec01b2230c30c4e737ed0f9aaf)
+        ;
+
+        
+    
+    
+            marker_69dc0f0c15dbde7ca81dcb3a2d505e5e.bindTooltip(
+                `<div>
+                     Yipee Yi Yay Cow Pattern
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7abc35e7d69862c514e742cd72c79e7 = L.marker(
+                [51.05496670548379, -114.07131503751194],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_e266125f5c76ca58a90eac1b9401e39a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85985c9cec6b6d877f4b7307d16a6535 = $(`<div id="html_85985c9cec6b6d877f4b7307d16a6535" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/78.html" target="_blank">Perforated Cow</a></div>`)[0];
+                popup_e266125f5c76ca58a90eac1b9401e39a.setContent(html_85985c9cec6b6d877f4b7307d16a6535);
+            
+        
+
+        marker_b7abc35e7d69862c514e742cd72c79e7.bindPopup(popup_e266125f5c76ca58a90eac1b9401e39a)
+        ;
+
+        
+    
+    
+            marker_b7abc35e7d69862c514e742cd72c79e7.bindTooltip(
+                `<div>
+                     Perforated Cow
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51bcae98f51d1030f55c93cd64e738e7 = L.marker(
+                [51.045737381949984, -114.06872387125571],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_f16d2ac5d3b592bb620166ccf604ef1c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd87bcee398a5d7a35b59f43e0c704a0 = $(`<div id="html_bd87bcee398a5d7a35b59f43e0c704a0" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010727160301/http://www.udderlyart.com/33.html" target="_blank">Some Enchanted Evening</a></div>`)[0];
+                popup_f16d2ac5d3b592bb620166ccf604ef1c.setContent(html_bd87bcee398a5d7a35b59f43e0c704a0);
+            
+        
+
+        marker_51bcae98f51d1030f55c93cd64e738e7.bindPopup(popup_f16d2ac5d3b592bb620166ccf604ef1c)
+        ;
+
+        
+    
+    
+            marker_51bcae98f51d1030f55c93cd64e738e7.bindTooltip(
+                `<div>
+                     Some Enchanted Evening
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65e366abfc386f1752de233a1a1d4187 = L.marker(
+                [51.04508225246642, -114.06058632945565],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_287238d2e2412990769a10691ff555dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc322f12954d57dab98e984667a0f738 = $(`<div id="html_cc322f12954d57dab98e984667a0f738" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/10.html" target="_blank">Jackson Cowlick - Incidental Bowvine</a></div>`)[0];
+                popup_287238d2e2412990769a10691ff555dc.setContent(html_cc322f12954d57dab98e984667a0f738);
+            
+        
+
+        marker_65e366abfc386f1752de233a1a1d4187.bindPopup(popup_287238d2e2412990769a10691ff555dc)
+        ;
+
+        
+    
+    
+            marker_65e366abfc386f1752de233a1a1d4187.bindTooltip(
+                `<div>
+                     Jackson Cowlick - Incidental Bowvine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0579ada1544cf6fca32467e0c275c3b9 = L.marker(
+                [51.047604058949744, -114.0741405072358],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_a02cb7d8fdc47cfe2c9d93ac6ff6c5a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82287e03104c80777025ecbf13cfc038 = $(`<div id="html_82287e03104c80777025ecbf13cfc038" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/76.html" target="_blank">Serenity AARC's Miracow of Recowvery</a></div>`)[0];
+                popup_a02cb7d8fdc47cfe2c9d93ac6ff6c5a7.setContent(html_82287e03104c80777025ecbf13cfc038);
+            
+        
+
+        marker_0579ada1544cf6fca32467e0c275c3b9.bindPopup(popup_a02cb7d8fdc47cfe2c9d93ac6ff6c5a7)
+        ;
+
+        
+    
+    
+            marker_0579ada1544cf6fca32467e0c275c3b9.bindTooltip(
+                `<div>
+                     Serenity AARC's Miracow of Recowvery
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1aa2e60175a8bcc92046f2642339db56 = L.marker(
+                [51.048365831128, -114.0705727288348],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_4662b9eb2fd0c2b6aad9a879d4fe0069 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_798f53be276f36114643d3ea02311a38 = $(`<div id="html_798f53be276f36114643d3ea02311a38" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/53.html" target="_blank">Hollywood and Bovine</a></div>`)[0];
+                popup_4662b9eb2fd0c2b6aad9a879d4fe0069.setContent(html_798f53be276f36114643d3ea02311a38);
+            
+        
+
+        marker_1aa2e60175a8bcc92046f2642339db56.bindPopup(popup_4662b9eb2fd0c2b6aad9a879d4fe0069)
+        ;
+
+        
+    
+    
+            marker_1aa2e60175a8bcc92046f2642339db56.bindTooltip(
+                `<div>
+                     Hollywood and Bovine
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_088d2730e701a25779a4478a0727eadf = L.marker(
+                [51.047604058949744, -114.0741405072358],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_f29ebb7dab3ade2e35d81f3db4495d57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9e8d61445897df9531e76febd5231b5 = $(`<div id="html_c9e8d61445897df9531e76febd5231b5" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/69.html" target="_blank">"If Cows could Fly" S.T.A.R.S. Ammoolance Helicowptor</a></div>`)[0];
+                popup_f29ebb7dab3ade2e35d81f3db4495d57.setContent(html_c9e8d61445897df9531e76febd5231b5);
+            
+        
+
+        marker_088d2730e701a25779a4478a0727eadf.bindPopup(popup_f29ebb7dab3ade2e35d81f3db4495d57)
+        ;
+
+        
+    
+    
+            marker_088d2730e701a25779a4478a0727eadf.bindTooltip(
+                `<div>
+                     "If Cows could Fly" S.T.A.R.S. Ammoolance Helicowptor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0fc903d7e12b28bbe17df83b7cce84c = L.marker(
+                [51.04549383747638, -114.06093792511096],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_04f285f6e610b09123d94a11968fd2a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8ba6f5660c8bcff90aac2cd2fef5c0a = $(`<div id="html_d8ba6f5660c8bcff90aac2cd2fef5c0a" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/8.html" target="_blank">Vacca Azzurra</a></div>`)[0];
+                popup_04f285f6e610b09123d94a11968fd2a4.setContent(html_d8ba6f5660c8bcff90aac2cd2fef5c0a);
+            
+        
+
+        marker_b0fc903d7e12b28bbe17df83b7cce84c.bindPopup(popup_04f285f6e610b09123d94a11968fd2a4)
+        ;
+
+        
+    
+    
+            marker_b0fc903d7e12b28bbe17df83b7cce84c.bindTooltip(
+                `<div>
+                     Vacca Azzurra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bad17be05902f135102c1376649df68 = L.marker(
+                [51.04551592772722, -114.06059109240226],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_8c234f47b397118fe673e9a7a8a1bcd0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ca1c41dd240f86af3aeaded4795fd05 = $(`<div id="html_8ca1c41dd240f86af3aeaded4795fd05" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010903032902/http://udderlyart.com/7.html" target="_blank">Ze Cow</a></div>`)[0];
+                popup_8c234f47b397118fe673e9a7a8a1bcd0.setContent(html_8ca1c41dd240f86af3aeaded4795fd05);
+            
+        
+
+        marker_7bad17be05902f135102c1376649df68.bindPopup(popup_8c234f47b397118fe673e9a7a8a1bcd0)
+        ;
+
+        
+    
+    
+            marker_7bad17be05902f135102c1376649df68.bindTooltip(
+                `<div>
+                     Ze Cow
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e042bf37614381a3c58160fbc1c7e665 = L.marker(
+                [51.04560473363842, -114.07089428908684],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_ddd4d18280f5c26e3511c5f2e614623e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26675df4b1441e1015a5d034d2c0b739 = $(`<div id="html_26675df4b1441e1015a5d034d2c0b739" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/35.html" target="_blank">This Ain't no Bull</a></div>`)[0];
+                popup_ddd4d18280f5c26e3511c5f2e614623e.setContent(html_26675df4b1441e1015a5d034d2c0b739);
+            
+        
+
+        marker_e042bf37614381a3c58160fbc1c7e665.bindPopup(popup_ddd4d18280f5c26e3511c5f2e614623e)
+        ;
+
+        
+    
+    
+            marker_e042bf37614381a3c58160fbc1c7e665.bindTooltip(
+                `<div>
+                     This Ain't no Bull
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e0f53a51b29fb01f8b76a0b722e44fb = L.marker(
+                [51.05105699395398, -114.07571830997632],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_c458f9bc703dbc5cc9f64f97578fd40c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a179e2915068b1507d32e5f66bfd1cde = $(`<div id="html_a179e2915068b1507d32e5f66bfd1cde" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/79.html" target="_blank">Ms. Mustard Seed</a></div>`)[0];
+                popup_c458f9bc703dbc5cc9f64f97578fd40c.setContent(html_a179e2915068b1507d32e5f66bfd1cde);
+            
+        
+
+        marker_1e0f53a51b29fb01f8b76a0b722e44fb.bindPopup(popup_c458f9bc703dbc5cc9f64f97578fd40c)
+        ;
+
+        
+    
+    
+            marker_1e0f53a51b29fb01f8b76a0b722e44fb.bindTooltip(
+                `<div>
+                     Ms. Mustard Seed
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_809e947b41e45c27a9714fc60c1fc91b = L.marker(
+                [51.04841185455903, -114.06969626025123],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_da9c2ec1b6f3dc094dcad1438af7d532 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bc696cfb6534cc6068b54b28c553236 = $(`<div id="html_9bc696cfb6534cc6068b54b28c553236" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010731202002/http://www.udderlyart.com/54.html" target="_blank">Bowvine Skyline</a></div>`)[0];
+                popup_da9c2ec1b6f3dc094dcad1438af7d532.setContent(html_9bc696cfb6534cc6068b54b28c553236);
+            
+        
+
+        marker_809e947b41e45c27a9714fc60c1fc91b.bindPopup(popup_da9c2ec1b6f3dc094dcad1438af7d532)
+        ;
+
+        
+    
+    
+            marker_809e947b41e45c27a9714fc60c1fc91b.bindTooltip(
+                `<div>
+                     Bowvine Skyline
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2cfec84ebed5f98dac2cef3e5154a468 = L.marker(
+                [51.04701918695303, -114.07262880258],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_d93b9cbd3cef7b4feb443a7cfb926f1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff5a1e0945b0bf53488264ba002ec0ff = $(`<div id="html_ff5a1e0945b0bf53488264ba002ec0ff" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010309074757/http://www.udderlyart.com/48.html" target="_blank">Cowatrina Witt</a></div>`)[0];
+                popup_d93b9cbd3cef7b4feb443a7cfb926f1a.setContent(html_ff5a1e0945b0bf53488264ba002ec0ff);
+            
+        
+
+        marker_2cfec84ebed5f98dac2cef3e5154a468.bindPopup(popup_d93b9cbd3cef7b4feb443a7cfb926f1a)
+        ;
+
+        
+    
+    
+            marker_2cfec84ebed5f98dac2cef3e5154a468.bindTooltip(
+                `<div>
+                     Cowatrina Witt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_898eaf014494603c40d41945c8b3f606 = L.marker(
+                [51.04117792235789, -114.0619065602515],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_3930c54c535ad8d0151502657012a302 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a3eadd1f855d27e3521cc36e81355c7 = $(`<div id="html_3a3eadd1f855d27e3521cc36e81355c7" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/98.html" target="_blank">Ms. Cowgary International</a></div>`)[0];
+                popup_3930c54c535ad8d0151502657012a302.setContent(html_3a3eadd1f855d27e3521cc36e81355c7);
+            
+        
+
+        marker_898eaf014494603c40d41945c8b3f606.bindPopup(popup_3930c54c535ad8d0151502657012a302)
+        ;
+
+        
+    
+    
+            marker_898eaf014494603c40d41945c8b3f606.bindTooltip(
+                `<div>
+                     Ms. Cowgary International
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a4c5124387e54fdd1cad9ce14b0892a = L.marker(
+                [51.05267395805354, -114.06844820257976],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_a6b44ff7f717cb3b1ece18d904fc98cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e6c65b7424bc5ed9eea2fd0d784cb92 = $(`<div id="html_8e6c65b7424bc5ed9eea2fd0d784cb92" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/67.html" target="_blank">Broadband Besi</a></div>`)[0];
+                popup_a6b44ff7f717cb3b1ece18d904fc98cc.setContent(html_8e6c65b7424bc5ed9eea2fd0d784cb92);
+            
+        
+
+        marker_3a4c5124387e54fdd1cad9ce14b0892a.bindPopup(popup_a6b44ff7f717cb3b1ece18d904fc98cc)
+        ;
+
+        
+    
+    
+            marker_3a4c5124387e54fdd1cad9ce14b0892a.bindTooltip(
+                `<div>
+                     Broadband Besi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c477f02f49be6f2ef9d79b1eb72311f8 = L.marker(
+                [50.99860410508391, -114.07262607059768],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_29206bcb19e318421b4a3efa2092f8e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a597d1845466a7dd923fc835eceb7be = $(`<div id="html_4a597d1845466a7dd923fc835eceb7be" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/107.html" target="_blank">Coyuse (Kow Yoos)</a></div>`)[0];
+                popup_29206bcb19e318421b4a3efa2092f8e9.setContent(html_4a597d1845466a7dd923fc835eceb7be);
+            
+        
+
+        marker_c477f02f49be6f2ef9d79b1eb72311f8.bindPopup(popup_29206bcb19e318421b4a3efa2092f8e9)
+        ;
+
+        
+    
+    
+            marker_c477f02f49be6f2ef9d79b1eb72311f8.bindTooltip(
+                `<div>
+                     Coyuse (Kow Yoos)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa7aa6df7d90205039c0826450f78f10 = L.marker(
+                [51.04513067950448, -114.06321146025137],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_3a5d830d46bd7772ac1a7c4040516a28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd841059246db0dc6791c8a4a13dec3e = $(`<div id="html_fd841059246db0dc6791c8a4a13dec3e" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/12.html" target="_blank">CANAbelle</a></div>`)[0];
+                popup_3a5d830d46bd7772ac1a7c4040516a28.setContent(html_fd841059246db0dc6791c8a4a13dec3e);
+            
+        
+
+        marker_fa7aa6df7d90205039c0826450f78f10.bindPopup(popup_3a5d830d46bd7772ac1a7c4040516a28)
+        ;
+
+        
+    
+    
+            marker_fa7aa6df7d90205039c0826450f78f10.bindTooltip(
+                `<div>
+                     CANAbelle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b734f373da7bd93636b984a3a0992301 = L.marker(
+                [51.0527043352576, -114.06844820013592],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_fd03624bf98ac75bdd4ec37c33e9dcb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49316e15b3f0724cd10e7d0efc169b53 = $(`<div id="html_49316e15b3f0724cd10e7d0efc169b53" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/74.html" target="_blank">Cowabunga</a></div>`)[0];
+                popup_fd03624bf98ac75bdd4ec37c33e9dcb2.setContent(html_49316e15b3f0724cd10e7d0efc169b53);
+            
+        
+
+        marker_b734f373da7bd93636b984a3a0992301.bindPopup(popup_fd03624bf98ac75bdd4ec37c33e9dcb2)
+        ;
+
+        
+    
+    
+            marker_b734f373da7bd93636b984a3a0992301.bindTooltip(
+                `<div>
+                     Cowabunga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2e5e468512f6e8e8420520a2cd951f4 = L.marker(
+                [51.04525566053312, -114.0687590160734],
+                {}
+            ).addTo(map_75afb147720e31a5919ab9903a3b83c8);
+        
+    
+        var popup_709ed29703fa32924f23bbfd484e3a46 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f928cff23b8dbe0450e8f773fc7237a = $(`<div id="html_4f928cff23b8dbe0450e8f773fc7237a" style="width: 100.0%; height: 100.0%;"><a href="https://web.archive.org/web/20010805182309/http://udderlyart.com/30.html" target="_blank">Climbing the Cowporate Ladder</a></div>`)[0];
+                popup_709ed29703fa32924f23bbfd484e3a46.setContent(html_4f928cff23b8dbe0450e8f773fc7237a);
+            
+        
+
+        marker_b2e5e468512f6e8e8420520a2cd951f4.bindPopup(popup_709ed29703fa32924f23bbfd484e3a46)
+        ;
+
+        
+    
+    
+            marker_b2e5e468512f6e8e8420520a2cd951f4.bindTooltip(
+                `<div>
+                     Climbing the Cowporate Ladder
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
